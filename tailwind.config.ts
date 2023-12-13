@@ -14,6 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       flex: {
+        "3": "3 3 0%", // 创建.flex-3类
         "4": "4 4 0%", // 创建.flex-4类
       },
     },

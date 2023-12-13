@@ -5,7 +5,7 @@
 /* 全局样式 */
 @layer base {
   * {
-    @apply box-border;
+    @apply box-border m-0 p-0;
   }
   body {
     @apply bg-slate-900 text-white;

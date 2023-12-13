@@ -79,7 +79,7 @@ const menuItems = [
 
 const Sidebar = () => {
   return (
-    <div className=" sticky top-10">
+    <div className=" sticky bg-slate-800  top-10">
       {/* 用户信息 */}
       <div className=" flex items-center gap-5 mb-5">
         <Image
