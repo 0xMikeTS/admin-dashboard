@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import Sidebar from "../ui/dashboard/sidebar/sidebar";
 import Navbar from "../ui/dashboard/navbar/navbar";
+import Footer from "../ui/dashboard/footer/footer";
 
 interface LayoutProps {
   children: ReactNode;
@@ -15,6 +16,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <div className=" flex-4 p-5">
         <Navbar />
         {children}
+        <Footer />
       </div>
     </div>
   );
